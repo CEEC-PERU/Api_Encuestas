@@ -4,6 +4,7 @@ from app.core.entities.role import Role
 from app.core.ports.role_repository import RoleRepository
 from app.infrastructure.adapters.db.models import RoleModel
 
+
 class RoleRepositoryImpl(RoleRepository):
     def __init__(self, db: Session):
         self.db = db

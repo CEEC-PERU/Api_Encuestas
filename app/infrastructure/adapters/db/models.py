@@ -3,6 +3,7 @@ from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.sql import expression
 from app.infrastructure.database import Base
 
+
 class RoleModel(Base):
     __tablename__ = "roles"
     
