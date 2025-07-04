@@ -18,3 +18,27 @@ class CreateRoleUseCase:
             
         # 2. Delega la persistencia al repositorio
         return self.repository.create(name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

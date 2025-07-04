@@ -2,8 +2,6 @@ from abc import ABC, abstractmethod
 from uuid import UUID
 from app.core.entities.role import Role
 
-    """Interfaz abstracta que define el contrato que deben implementar
-    todos los adaptadores de repositorio de roles."""
 class RoleRepository(ABC):
     @abstractmethod
     def create(self, role: Role) -> Role:
@@ -20,3 +18,6 @@ class RoleRepository(ABC):
     @abstractmethod
     def delete(self, role_id: UUID) -> bool:
         pass
+
+
+        
